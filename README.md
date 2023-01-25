@@ -18,3 +18,12 @@
 #### Branch 이름
 숫자 및 내용을 길게 안쓰고 작성자_타입_내용 ex) jwhan_feature_VR System Develop
 
+#### Branch 명령어
+* git branch -a -모든 브랜치 보기, 초록생은 현재 브랜치
+* git checkout 브랜치명 -해당 브랜치로 이동
+* git checkout -b 브랜치명 -해당 브랜치를 생성하고 현재 브랜치를 복사 후 이동
+* git merge 브랜치명 -해당 브렌치의 내용을 현재 브랜치에 병합
+* git push origin 브랜치명 -해당 브랜치를 원격에 Push
+* git branch -d 브랜치명 -해당 브랜치를 로컬에서 삭제
+* git push origin --delete 브랜치명 -해당 브랜치를 원격에서 삭제 (주의요망)
+
